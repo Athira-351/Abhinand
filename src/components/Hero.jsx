@@ -45,22 +45,7 @@ Get In Touch
 </motion.div>
 </div>
 
-{/* Mobile/Tablet image */}
-<motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 0.4, duration: 0.8 }}
-  className="lg:hidden relative mt-8"
->
-  <img
-    src="/images/abhinand_pi.jpg"
-    alt="Abhinand K"
-    className="w-full h-auto rounded-2xl shadow-xl border border-slate-200"
-  />
-</motion.div>
-
-{/* Desktop image */}
-<div className="hidden lg:block relative h-full">
+<div className="relative h-full">
 <div className="absolute inset-0 bg-gradient-to-br from-indigo-100/40 to-purple-100/40 rounded-3xl blur-3xl"></div>
 <motion.img initial={{x:40, opacity:0, rotate:5}} animate={{x:0, opacity:1, rotate:0}} transition={{delay:0.3, duration:0.8}} src="/images/abhinand_pi.jpg" alt="Abhinand K" className="relative w-full max-w-sm rounded-3xl shadow-2xl border border-white/20" />
 <motion.img initial={{x:-40, opacity:0, rotate:-5}} animate={{x:0, opacity:1, rotate:-8}} transition={{delay:0.5, duration:0.8}} src="/images/abhinand_pi.jpg" alt="ui mockup" className="relative absolute -right-8 top-32 w-48 rounded-2xl border-4 border-white shadow-2xl" />
