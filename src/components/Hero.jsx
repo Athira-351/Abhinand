@@ -45,10 +45,10 @@ Get In Touch
 </motion.div>
 </div>
 
-<div className="relative h-full">
+<div className="hidden md:block relative h-full">
 <div className="absolute inset-0 bg-gradient-to-br from-indigo-100/40 to-purple-100/40 rounded-3xl blur-3xl"></div>
-<motion.img initial={{x:40, opacity:0, rotate:5}} animate={{x:0, opacity:1, rotate:0}} transition={{delay:0.3, duration:0.8}} src="/images/abhinand_pi.jpg" alt="Abhinand K" className="relative w-full max-w-sm rounded-3xl shadow-2xl border border-white/20" />
-<motion.img initial={{x:-40, opacity:0, rotate:-5}} animate={{x:0, opacity:1, rotate:-8}} transition={{delay:0.5, duration:0.8}} src="/images/abhinand_pi.jpg" alt="ui mockup" className="relative absolute -right-8 top-32 w-48 rounded-2xl border-4 border-white shadow-2xl" />
+<motion.img initial={{x:40, opacity:0, rotate:5}} animate={{x:0, opacity:1, rotate:0}} transition={{delay:0.3, duration:0.8}} src="/images/abhinand_pi.jpg" alt="Abhinand Profile" className="relative w-full max-w-sm rounded-3xl shadow-2xl border border-white/20 object-cover" />
+<motion.img initial={{x:-40, opacity:0, rotate:-5}} animate={{x:0, opacity:1, rotate:-8}} transition={{delay:0.5, duration:0.8}} src="/images/abhinand_pi.jpg" alt="Abhinand Profile" className="hidden lg:block relative absolute -right-8 top-32 w-48 rounded-2xl border-4 border-white shadow-2xl object-cover" />
 </div>
 </section>
 )
