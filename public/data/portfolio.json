@@ -1,0 +1,57 @@
+{
+"meta": {
+"name": "Abhinand K",
+"title": "UI/UX Designer",
+"location": "Vatakara, Calicut",
+"phone": "9567879892",
+"email": "abhiabhinand391@gmail.com",
+"heroTagline": "Crafting thoughtful interfaces that feel intuitive",
+"intro": "I am a creative and passionate UI/UX designer focused on building user-friendly and visually engaging digital experiences. Skilled in Figma, Adobe XD, and prototyping, I enjoy learning new design trends and creating user-centered solutions that balance usability with aesthetics."
+},
+"skills": [
+"UI Design",
+"Logo Design",
+"Illustration",
+"Website Design",
+"Communication",
+"Speed Typing"
+],
+"software": [
+"Adobe Photoshop",
+"Adobe Illustrator",
+"Figma",
+"Miro",
+"Adobe XD",
+"Tally",
+"MS Excel"
+],
+"education": [
+{"school": "Zoople Technologies", "course": "UI/UX Design With Figma"},
+{"school": "GTEC COMPUTER EDUCATION", "course": "Diploma in Indian and Foreign Accounts"},
+{"school": "Higher Secondary Education", "course": "Computer Commerce"}
+],
+"projects": [
+{
+"id": "p1",
+"title": "Travel App — Redesign",
+"description": "End-to-end UI/UX redesign of a travel booking app focusing on simplified flows and micro-interactions.",
+"image": "/images/project-p1.png",
+"tags": ["Mobile", "Figma", "Prototyping"]
+},
+{
+"id": "p2",
+"title": "E-commerce Checkout Flow",
+"description": "Streamlined checkout and cart flow with A/B studied microcopy to increase conversions.",
+"image": "/images/project-p2.png",
+"tags": ["Web", "UX Research", "Wireframes"]
+},
+{
+"id": "p3",
+"title": "Dashboard UI — Analytics",
+"description": "Data-dense dashboard made approachable through visual hierarchy and concise interactions.",
+"image": "/images/project-p3.png",
+"tags": ["Dashboard", "Visual Design"]
+}
+],
+"languages": ["Malayalam", "Hindi", "English"]
+}
